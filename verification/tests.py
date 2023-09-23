@@ -22,6 +22,6 @@ TESTS = {
         {"input": [500], "answer": 125250}
     ],
     "Extra": [
-        {"input": [900], "answer": 05450}
+        {"input": [900], "answer": 405450}
     ]
 }
