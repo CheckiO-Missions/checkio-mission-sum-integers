@@ -19,10 +19,10 @@ TESTS = {
         {"input": [20], "answer": 210},
         {"input": [100], "answer": 5050},
         {"input": [200], "answer": 20100},
-        {"input": [500], "answer": 125250}
+        {"input": [500], "answer": 125250},
     ],
     "Extra": [
-        {"input": [900], "answer": 405450}
-        {"input": [461], "answer": 106491}
+        {"input": [900], "answer": 405450},
+        {"input": [461], "answer": 106491},
     ]
 }
