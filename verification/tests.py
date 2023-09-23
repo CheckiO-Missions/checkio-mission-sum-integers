@@ -23,5 +23,6 @@ TESTS = {
     ],
     "Extra": [
         {"input": [900], "answer": 405450}
+        {"input": [461], "answer": 106491}
     ]
 }
