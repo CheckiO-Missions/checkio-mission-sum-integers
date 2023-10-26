@@ -1,0 +1,81 @@
+<body data-author="freeman_lex">
+<div class="question-answer">
+    <div class="question">
+        Nie mam pojęcia, jak zacząć rozwiązywać tę misję.
+    </div>
+    <div class="answer">
+        <p>
+            Proszę złapać pomysł 💡! Rozwiązanie, które Państwu proponuję jest niezwykle proste. Proszę poczytać o progresji arytmetycznej i z niej skorzystać!
+        </p>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Ok, od czego powinienem zacząć?
+    </div>
+    <div class="answer">
+        <p>
+            Proszę poczytać o <a target="_blank" href="https://en.wikipedia.org/wiki/Arithmetic_progression">arithmetic progression</a>, sumie jego elementów i wykorzystać te informacje!
+        </p>
+        <pre class="brush: python">
+S = N * (N + 1) // 2
+        </pre>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Jak więc powinno wyglądać moje ostateczne rozwiązanie?
+    </div>
+    <div class="answer">
+        <p>
+            Wystarczy zawinąć kod w wyrażenie funkcyjne i zwrócić wynik lub całe wyrażenie. Zaleca się używanie podpowiedzi typu dla danych wejściowych i wyjściowych.
+        </p>
+        <p>Oto całe rozwiązanie:</p>
+        <div class="spoiler">
+        <pre class="brush: python">
+def sum_upto_n(N: int) -> int:
+
+    return N * (N + 1) // 2
+        </pre>
+        </div>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Proszę pokazać mi więcej rozwiązań!<br />
+        bo chcę być prawdziwą 🥇 Python Ninnjaa!
+    </div>
+    <div class="answer">
+        <p>Jasne, proszę łapać!</p>
+        <p>
+            Proszę użyć funkcji <b class="code">range()</b>.
+        </p>
+        <div class="spoiler">
+        <pre class="brush: python">
+def sum_upto_n(N: int) -> int:
+
+    return sum(range(1, N + 1))
+        </pre>
+        </div>
+        <p>
+            To rozwiązanie wykorzystuje rekurencję.
+        </p>
+        <div class="spoiler">
+        <pre class="brush: python">
+def sum_upto_n(N: int) -> int:
+
+    return 1 if N == 1 else N + sum_upto_n(N-1)
+        </pre>
+        </div>
+        <p>Proszę kliknąć <b>Best Solutions</b> w menu misji i zobaczyć wiele innych ciekawych rozwiązań!</p>
+    </div>
+</div>
+<div class="question-answer">
+    <div class="question">
+        Dzięki! Teraz wiem i rozumiem więcej! Wszystko działa jak należy!
+    </div>
+    <div class="answer">
+        Miło mi to słyszeć 👍!
+    </div>
+</div>
+</body>
